@@ -23,10 +23,11 @@ ALU UUT( .A(_A),
       #10;
       for (i=0;i<=15;i=i+1)
       begin
+       $display ("SEL is = %b, A = %b, B = %b, sum is = %b, Carryout is = %b",_SEL,_A,_B,_SUM,_CarryOut);
       _SEL = _SEL  + 1'b1;
        #10;
       end
-      $display ("sum is  %b"," Carryout is  %b",_SUM,_SEL);
+      
     end
 
 endmodule
