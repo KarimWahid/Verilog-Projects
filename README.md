@@ -6,7 +6,7 @@
 '1000' Logical AND              '1001'Logical OR                    '1010' Logical XOR                       '1010' Logical NOR 
 '1011' Logical NAND             '1101'Logical XNOR                  '1110' Greater comparison                '1111' Equal comparison 
 
-| Column 1 Header | Column 2 Header | Column 3 Header |
+
 | --------------- | --------------- | --------------- |
 | Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 |
 | Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 |
